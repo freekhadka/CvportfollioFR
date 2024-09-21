@@ -224,6 +224,31 @@ header > .collapsible-header{
     transform: scale(1.05); /* Slight zoom effect on image hover */
 }
 
+.icon-container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+.icone {
+    height: 40px; /* Adjust size as needed */
+    width: 40px; 
+    object-fit: contain;
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.text {
+    margin-left: 0; /* No extra margin */
+}
+
+.vertical-line {
+    width: 2px; /* Adjust thickness */
+    height: 40px; /* Adjust height to fit your design */
+    background-color: black; /* Color of the line */
+    margin: 0 10px; /* Spacing around the line */
+}
+
+
+
 
 .collapsible .active,
 .collapsible:hover {

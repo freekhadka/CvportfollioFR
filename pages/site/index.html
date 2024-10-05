@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Mutek landing page</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/logo/favicon-mutek.png">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../../scss/custom_bootstrap.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/styles-lp.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tristan Khadka</title>
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="./assets/images/home/logo.png" type="image/x-icon" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Title of the project" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/PaulleDemon" />
+    <!--Replace with the current website url-->
+    <meta property="og:image" content="" />
+
+    <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css" /> -->
+
+    <link rel="stylesheet" href="../../css/index.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <header
+  class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around">
+  <a href="../../index.html">
+      <img src="../../assets/images/home/logo.png" alt="" class="logo">
+  </a>
+  <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
+      <div
+          class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-black max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center">
+          <a class="header-links" href=""> Portfolio </a>
+          <a class="header-links" href=""> Contact </a>
+      </div>
+      <div
+          class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center">
+          <a href="https://tally.so/r/woO0Kx" aria-label="signup"
+              class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-rounded-full tw-bg-black tw-p-1 tw-pl-4 tw-text-white">
+              <span>Contactez-moi</span>
+              <div
+                  class="tw-flex tw-h-[30px] tw-w-[30px] tw-place-content-center tw-place-items-center tw-rounded-full tw-bg-white tw-font-semibold tw-text-black">
+                  <i class="bi bi-arrow-up-right"></i>
+              </div>
+          </a>
+      </div>
+  </div>
+  <button class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden"
+      onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
+</header>
+
+
+    <!----------------------->
+    <!----- Section Héro----->
+    <!----------------------->
+    <section id="hero">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-lg-6 text-center text-lg-start">
+            <h1 class="po mt-4 mb-0">
+              Découvrez l'appli<br />officielle du festival<br />MUTEK
+            </h1>
+            <p>
+              Tirez profit de cette appli qui rendra votre<br />expérience
+              fluide et sans compremis.
+            </p>
+            <a href="#" class="btn btn-secondary">Téléchargez maintenant!</a>
+          </div>
+          <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+            <div class="cadreApp">
+              <iframe src="../../pages/app/index.html" scrolling="yes" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!----------------------------------->
+    <!----- Section Fonctionnalités ----->
+    <!----------------------------------->
+    <section class="bg-light mt-4 p-4" id="fonctionnalite">
+      <div class="container">
+        <div class="row">
+          <div class="col text-dark">
+            <h2 class="mt-4 text-center">Fonctionnalités</h2>
+            <p class="text-center">
+              En téléchargeant notre appli, vous allez profiter d'une foule de
+              fonctionnalités qui vous permettront de vivre une expérience
+              totale et complète lors des expositions et des performances du
+              festival.
+            </p>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-alarm fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Programmation complète et modulable
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  Liste complète des évenements avec leur horaire.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-calendar-week fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Création d'un horraire personnalisé
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  Créez-vous un horraire propre à vous pour préparer votre
+                  visite!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-collection-fill fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Catalogue des oeuvres et artistes
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  L'entiereté des oeuvres et artistes qui participent ou qui ont
+                  déja participés au festival!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-ticket-perforated-fill fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Achat de billet intégré à l'appli
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  Procurez-vous vos billets de manière sécuritaire directement
+                  sur l'appli!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-geo-fill fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Repérage d'amis sur la carte interactive
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  Fonctionnalitée de l'application permettant de situer des amis
+                  ou famille
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-cart4 fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">Achat de produit MUTEK</h5>
+                </div>
+                <p class="card-text mt-3">
+                  Il est possible de pouvoir se procurer les dernières éditions
+                  de notre collection de vêtement aux couleurs de MUTEK!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------->
+    <!----- Section Voir plus ------->
+    <!------------------------------->
+
+
+
+    <!------------------------------->
+    <!----- Section Témoignages ----->
+    <!------------------------------->
+
+
+    <!---------------------->
+    <!----- Section FAQ----->
+    <!---------------------->
+    <section id="FAQ" class="p-5">
+      <div class="container">
+        <div class="accordion" id="accordionFAQ">
+          <h2 class="m-4">FAQ - Foire aux question</h2>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="titreUn">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Qu'est-ce que MUTEK
+              </button>
+            </h3>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="titreUn"
+              data-bs-parent="#accordionFAQ"
+            >
+              <div class="accordion-body">
+                MUTEK est un <strong>organisme sans but lucratif</strong>, dédié
+                à la diffusion et au développement des formes émergentes de la
+                création numérique sonore, musicale, visuelle. Son mandat :
+                offrir aux artistes les plus originaux et visionnaires du
+                domaine, un tremplin visant à les faire connaître et les
+                propulser le plus loin possible dans leur concept de création,
+                et ce, dans une dynamique d'initiation, de sensibilisation et de
+                développement de nouveaux publics.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="titreDeux">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Où se déroule le festival?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="titreDeux"
+              data-bs-parent="#accordionFAQ"
+            >
+              <div class="accordion-body">
+                Aujourd'hui, un réseau MUTEK existe, et comporte des
+                ramifications en Amérique du Nord, en Amérique du Sud, en Asie
+                et en Europe; une tribune essentielle pour explorer et
+                promouvoir un contenu artistique varié, reflétant une
+                effervescence culturelle très actuelle et mondiale.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="titreTrois">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Croissance du festival
+              </button>
+            </h3>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="titreTrois"
+              data-bs-parent="#accordionFAQ"
+            >
+              <div class="accordion-body">
+                Au fil des ans, le Festival MUTEK a présenté un nombre
+                considérable d'artistes reconnus, tout en accordant une place
+                importante à ceux de la relève - chaque édition comporte
+                d'ailleurs une quantité remarquable de premières canadiennes,
+                nord-américaines et internationales. Le Festival se déroule dans
+                un contexte convivial qui favorise les rencontres et les
+                échanges entre les artistes, les professionnels et le public;
+                c'est un véritable lieu de convergence où les intervenants,
+                venus de partout dans le monde se réunissent et profitent d'un
+                contexte de réseautage actif se traduisant souvent par de
+                multiples et intéressantes retombées.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------->
+    <!----- Section Infolettre----->
+    <!----------------------------->
+ 
+
+    <!----------------------------->
+    <!----- Fenetre modale----->
+    <!----------------------------->
+    <div
+      class="modal fade"
+      id="infolettreModal"
+      tabindex="-1"
+      aria-labelledby="infolettreModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infolettreModal">Restez informé !</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body ">
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label visually-hidden"
+                  >Votre adresse courriel</label
+                >
+                <div class="input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-envelope-paper-fill"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control p-2"
+                    id="email"
+                    placeholder="Votre adresse courriel"
+                    required
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary p-2">M'inscrire</button>
+            <button
+              type="button"
+              class="btn btn-secondary p-2"
+              data-bs-dismiss="modal"
+            >
+              Annuler
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------->
+    <!----- Footer----->
+    <!----------------->
+
+    <footer
+    class="tw-mt-auto tw-flex tw-min-h-[100px] tw-w-full tw-place-content-around tw-place-items-center tw-gap-3 tw-p-[2%] tw-px-[10%] tw-text-black max-md:tw-flex-col">
+    <div class="tw-flex tw-gap-6 tw-text-2xl">
+        <a href="https://www.instagram.com/khadkaaaaaaa/" aria-label="Instagram" class="tw-h-[40px] tw-w-[40px]">
+            <img src="../../assets/images/home/instagram (1).png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/tristan-khadka-b95a8b319/" class="tw-h-[40px] tw-w-[40px]" aria-label="Twitter">
+            <img src="../../assets/images/home/linkedin.png" alt="">
+        </a>
+        <a href="https://x.com/freekhadka" class="tw-h-[40px] tw-w-[40px]" aria-label="stackoverflow">
+            <img src="../../assets/images/home/twitter.png" alt="">
+        </a>
+    </div>
+</footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+      integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"
+    integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"
+    integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="../../index.js"></script>
+  </body>
+</html>

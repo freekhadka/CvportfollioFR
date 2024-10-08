@@ -121,4 +121,26 @@ sections.forEach((sec) => {
 })
 
 
+    const links = document.querySelectorAll('.video-link');
+    const audio = document.getElementById('transition-audio');
+
+    links.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+
+            const url = this.href; // Get the URL from the link
+
+            audio.currentTime = 0; // Reset the audio
+            audio.play(); // Play the audio
+
+            // Wait for the audio to finish before navigating
+            audio.onended = function() {
+                window.location.href = url; // Navigate to the URL
+            };
+        });
+    });
+
+
+
+
 

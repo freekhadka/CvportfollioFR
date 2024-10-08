@@ -56,27 +56,37 @@
             onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
     </header>
 
-    <section class="tw-relative tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-items-center tw-p-6">
-        <h1 class="tw-text-4xl tw-font-semibold tw-text-center tw-mt-8">Ma Vidéo Étonnante</h1>
-        <div class="tw-mt-6 tw-w-full tw-max-w-4xl">
-            <iframe class="tw-w-full tw-h-96" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+    <section class="video">
+        <div class="video-container">
+            <div class="video-item">
+                <a href="https://www.youtube.com/watch?v=qRqz1CxbHfQ" class="video-link" target="_blank">
+                    <img src="../assets/images/home/Layer3.png" class="cassette" alt="Vidéo 1">
+                </a>
+            </div>
+            <div class="video-item">
+                <a href="https://www.youtube.com/watch?v=tOcFtTCyJOY" class="video-link" target="_blank">
+                    <img src="../assets/images/home/Layer2.png" class="cassette" alt="Vidéo 2">
+                </a>
+            </div>
+            <div class="video-item">
+                <a href="https://www.youtube.com/watch?v=wBZa_8Q9vxc" class="video-link" target="_blank">
+                    <img src="../assets/images/home/Layer1.png" class="cassette" alt="Vidéo 3">
+                </a>
+            </div>
         </div>
-        <div class="tw-mt-8 tw-flex tw-flex-col tw-max-w-3xl tw-gap-6 tw-text-center">
-            <h2 class="tw-text-2xl tw-font-semibold">Description de la Vidéo</h2>
-            <p class="tw-text-gray-700">Cette vidéo vous plongera dans l'univers fascinant de [description de la vidéo]. Vous découvrirez [points clés].</p>
-            <h3 class="tw-text-xl tw-font-semibold">Pourquoi regarder cette vidéo ?</h3>
-            <p class="tw-text-gray-700">En regardant cette vidéo, vous apprendrez [bénéfices]. C'est un excellent moyen de [objectifs].</p>
-            <h3 class="tw-text-xl tw-font-semibold">À qui s'adresse cette vidéo ?</h3>
-            <p class="tw-text-gray-700">Cette vidéo est idéale pour [public cible]. Que vous soyez [exemples de personnes], vous trouverez certainement [bénéfices].</p>
-        </div>
-        <a href="#" class="tw-mt-8 tw-inline-flex tw-items-center tw-px-4 tw-py-2 tw-bg-black tw-text-white tw-rounded-full">
-            <span>Regarder Plus</span>
-            <i class="bi bi-arrow-up-right tw-ml-2"></i>
-        </a>
+        <audio id="transition-audio" src="../assets/audio/yes.mp3"></audio> <!-- Replace with your audio file -->
     </section>
+    
+    
+    
+    
+    
+    
+    
+
 
     <hr class="tw-mt-4" />
-
 
     <footer
         class="tw-mt-auto tw-flex tw-min-h-[100px] tw-w-full tw-place-content-around tw-place-items-center tw-gap-3 tw-p-[2%] tw-px-[10%] tw-text-black max-md:tw-flex-col">

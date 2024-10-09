@@ -56,22 +56,27 @@
             onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
     </header>
 
-    <section class="tw-relative tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-items-center tw-p-6">
-        <h1 class="tw-text-4xl tw-font-semibold tw-text-center tw-mt-8">Ma Vidéo Étonnante</h1>
-        <div class="tw-mt-6 tw-w-full tw-max-w-4xl">
-            <iframe class="tw-w-full tw-h-96" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    <section>
+        <h1 class="main-title">Ma Vidéo Étonnante</h1>
+        
+        <div class="video-wrapper">
+            <iframe class="video-frame" src="https://www.youtube.com/embed/QZzlTuTrC3c?vq=hd1080" allowfullscreen></iframe>
+            <iframe class="video-frame" src="https://www.youtube.com/embed/VIDEO_ID_2?vq=hd1080" allowfullscreen></iframe>
+            <iframe class="video-frame" src="https://www.youtube.com/embed/VIDEO_ID_3?vq=hd1080" allowfullscreen></iframe>
         </div>
-        <div class="tw-mt-8 tw-flex tw-flex-col tw-max-w-3xl tw-gap-6 tw-text-center">
-            <h2 class="tw-text-2xl tw-font-semibold">Description de la Vidéo</h2>
-            <p class="tw-text-gray-700">Cette vidéo vous plongera dans l'univers fascinant de [description de la vidéo]. Vous découvrirez [points clés].</p>
-            <h3 class="tw-text-xl tw-font-semibold">Pourquoi regarder cette vidéo ?</h3>
-            <p class="tw-text-gray-700">En regardant cette vidéo, vous apprendrez [bénéfices]. C'est un excellent moyen de [objectifs].</p>
-            <h3 class="tw-text-xl tw-font-semibold">À qui s'adresse cette vidéo ?</h3>
-            <p class="tw-text-gray-700">Cette vidéo est idéale pour [public cible]. Que vous soyez [exemples de personnes], vous trouverez certainement [bénéfices].</p>
+        
+        <div class="video-description">
+            <h2 class="section-title">Description de la Vidéo</h2>
+            <p class="text-content">Cette vidéo vous plongera dans l'univers fascinant de [description de la vidéo]. Vous découvrirez [points clés].</p>
+            <h3 class="section-title">Pourquoi regarder cette vidéo ?</h3>
+            <p class="text-content">En regardant cette vidéo, vous apprendrez [bénéfices]. C'est un excellent moyen de [objectifs].</p>
+            <h3 class="section-title">À qui s'adresse cette vidéo ?</h3>
+            <p class="text-content">Cette vidéo est idéale pour [public cible]. Que vous soyez [exemples de personnes], vous trouverez certainement [bénéfices].</p>
         </div>
-        <a href="#" class="tw-mt-8 tw-inline-flex tw-items-center tw-px-4 tw-py-2 tw-bg-black tw-text-white tw-rounded-full">
+        
+        <a href="#" class="button-watch-more">
             <span>Regarder Plus</span>
-            <i class="bi bi-arrow-up-right tw-ml-2"></i>
+            <i class="bi bi-arrow-up-right"></i>
         </a>
     </section>
 

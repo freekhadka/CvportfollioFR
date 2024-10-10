@@ -143,4 +143,20 @@ sections.forEach((sec) => {
     });
 
 
-    //Import the THREE.js library
+    document.addEventListener("DOMContentLoaded", function() {
+
+   
+
+        // Fade-in animation for the "My Story" section
+        gsap.from("#story-title, #story-text, #about-title, #about-text, #contactme ", {
+            opacity: 0,
+            y: -50,
+            stagger: 0.2, // Stagger the animations
+            duration: 1,
+            scrollTrigger: {
+                trigger: "#story-title", // Element that triggers the animation
+                start: "top 80%", // Start the animation when the top of the element is at 80% of the viewport height
+                toggleActions: "play none none reverse" // Play on enter, reverse on leave
+            }
+        });
+    });

@@ -1,5 +1,7 @@
 // initialization
 
+
+
 const RESPONSIVE_WIDTH = 1024
 
 let headerWhiteBg = false
@@ -141,6 +143,4 @@ sections.forEach((sec) => {
     });
 
 
-
-
-
+    //Import the THREE.js library

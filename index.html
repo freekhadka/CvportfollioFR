@@ -18,7 +18,7 @@
 
     <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css" /> -->
     <link rel="stylesheet" href="./css/tailwind-build.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet"
@@ -26,6 +26,8 @@
         integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
+
 
 <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#fff] tw-font-mono">
     <header
@@ -37,7 +39,7 @@
             <div
                 class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-black max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center">
                 <a class="header-links" href=""> Portfolio </a>
-                <a class="header-links" href=""> Contact </a>
+                <a class="header-links" href="./pages/contact.html"> Contact </a>
             </div>
             <div
                 class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center">
@@ -62,13 +64,14 @@
             <div class="tw-flex tw-flex-col tw-place-content-center">
                 <div
                     class="tw-flex tw-flex-wrap tw-text-7xl tw-font-semibold tw-uppercase tw-leading-[85px] max-lg:tw-text-4xl max-md:tw-leading-snug">
-                    <span class="reveal-hero-text tw-bg-green-200 tw-p-1 tw-px-5">
+                    <span class="hero reveal-hero-text tw-p-1 tw-px-5">
                         Tristan Khadka
                     </span>
                     <br />
                     <span class="reveal-hero-text">
                         Artiste. <br> Photographe. <br> Designer web. <br> Animateur & modélisateur 3D.</span>
                 </div>
+                <div id="container3D"></div>
                 <div class="reveal-hero-text tw-mt-2 tw-max-w-[450px] tw-p-2 tw-text-justify max-lg:tw-max-w-full">
                     Je suis un artiste humanitaire népalais-canadien avec une passion pour transformer des idées en réalité. Poussé par la curiosité et la résilience, je considère les défis comme des opportunités d'apprendre et de grandir.
                 </div>
@@ -89,8 +92,9 @@
                 class="tw-flex tw-w-full tw-max-w-[50%] tw-place-content-center tw-place-items-center tw-overflow-hidden max-lg:tw-max-w-[unset]">
                 <div
                     class="tw-relative tw-flex tw-max-h-[580px] tw-min-h-[450px] tw-min-w-[350px] tw-max-w-[650px] tw-overflow-hidden max-lg:tw-h-fit max-lg:tw-max-h-[320px] max-lg:tw-min-h-[180px] max-lg:tw-w-[320px] max-lg:tw-min-w-[320px]">
-                    <img src="./assets/images/home/man.png" alt="app"
-                        class="reveal-hero-img tw-z-[1] tw-h-full tw-w-full tw-object-contain" />
+                   
+                    <!--  <img src="./assets/images/home/man.png" alt="app"
+                    class="reveal-hero-img tw-z-[1] tw-h-full tw-w-full tw-object-contain" /> -->
                 </div>
             </div>
         </div>
@@ -335,7 +339,7 @@ Découvrez davantage sur les créations de Tristan. Ne manquez rien !
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"
     integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<script type="module" src="./main.js"></script>
 <script src="./index.js"></script>
 
 </html>

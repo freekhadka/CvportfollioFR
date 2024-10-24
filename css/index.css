@@ -54,6 +54,12 @@ header {
     transition: width 0.3s ease;
 }
 
+.imageme {
+    width: 25%; /* Set the image width to 25% */
+    border-radius: 0.5rem; /* Optional: Rounded corners */
+    margin-right: 1rem; /* Space between image and text */
+}
+
 .header-links {
     display: flex;
     align-items: center;

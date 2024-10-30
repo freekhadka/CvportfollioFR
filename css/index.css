@@ -478,8 +478,7 @@ header {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     object-fit: cover; /* Cover the entire area */
-    z-index: -1; /* Place behind other content */
-    display: none;
+    z-index: -1;
 }
 
 .heading {

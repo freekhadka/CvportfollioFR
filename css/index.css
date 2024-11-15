@@ -399,6 +399,7 @@ header {
     }
 }
 
+
 .video-description {
     margin-top: 20px;
     max-width: 800px;
@@ -433,6 +434,33 @@ header {
     margin-left: -35%;
     z-index: -100;
 }
+@media (max-width: 1000px) {
+    #container3D  {
+        width: 150%; /* Make it take the full width of the parent */
+   
+       margin-top: 70%;
+       margin-left: -30%;
+   }
+}
+
+@media (max-width: 900px) {
+    #container3D  {
+        width: 150%; /* Make it take the full width of the parent */
+   
+       margin-top: 100%;
+       margin-left: -30%;
+   }
+}
+
+@media (max-width: 600px) {
+    #container3D  {
+        width: 150%; /* Make it take the full width of the parent */
+   
+       margin-top: 150%;
+       margin-left: -30%;
+   }
+}
+
 
 #container3D canvas {
     width: 100% !important; /* Full width for the canvas */

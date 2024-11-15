@@ -493,7 +493,9 @@ header {
     -webkit-text-stroke-color: var(--accent-color);
   }
   
-
+ .maya {
+    margin-right: 40px;
+  }
 
 
 

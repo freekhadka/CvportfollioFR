@@ -49,6 +49,70 @@
             onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
     </header>
 
+
+<section>
+
+
+    <div id="audioPlayersContainer"></div>
+
+
+</section>
+
+
+
+
+
+
+
+ <section>
+
+
+        <img src="../assets/images2/cover.png" id="background2" />
+    <audio src="../assets/music/the_call_v1_master.wav" id="song"></audio>
+
+    <div class="container2">  
+        <div class="box"></div>      
+        <img src="../assets/images2/cover.png" id="thumbnail" />
+        
+        <img src="../assets/icons/play.png" onclick="playPause()" id="play-pause" />
+        <img src="../assets/icons/forward.png" onclick="nextSong()" id="next-song" />
+        <img src="../assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
+
+        <div class="song-artist">Khadka</div>
+        <div class="song-title">The Call</div>
+
+        
+        <input 
+            type="range" 
+            id="progress-bar" 
+            min="0" 
+            max="" 
+            value="0" 
+            onchange="changeProgressBar()"
+        />
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+    </section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      <!-- <section class="tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-overflow-hidden max-lg:tw-p-4 max-md:tw-mt-[50px]">
         <div class="tw-flex tw-h-full tw-w-full tw-place-content-center tw-gap-8 tw-p-[5%] max-lg:tw-flex-col">
            
@@ -104,7 +168,7 @@
     
 
 
-    <hr class="tw-mt-4" />
+
 
     <footer 
     class="footer tw-mt-auto tw-flex tw-min-h-[100px] tw-justify-center tw-items-center tw-gap-3 tw-p-[2%] tw-px-[10%]">

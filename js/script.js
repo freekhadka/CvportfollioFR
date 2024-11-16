@@ -58,5 +58,3 @@ const swiper = new Swiper(".swiper-screenshots", {
     prevEl: ".swiper-button-prev",
   },
 });
-
-

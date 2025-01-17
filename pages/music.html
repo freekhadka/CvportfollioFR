@@ -64,101 +64,45 @@
 
 
 
- <section>
-
-
-        <img src="../assets/images2/cover.png" id="background2" />
-    <audio src="../assets/music/the_call_v1_master.wav" id="song"></audio>
-
-    <div class="container2">  
-        <div class="box"></div>      
-        <img src="../assets/images2/cover.png" id="thumbnail" />
-        
-        <img src="../assets/icons/play.png" onclick="playPause()" id="play-pause" />
-        <img src="../assets/icons/forward.png" onclick="nextSong()" id="next-song" />
-        <img src="../assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
-
-        <div class="song-artist">Khadka</div>
-        <div class="song-title">The Call</div>
-
-        
-        <input 
-            type="range" 
-            id="progress-bar" 
-            min="0" 
-            max="" 
-            value="0" 
-            onchange="changeProgressBar()"
-        />
-
-        <div class="currentTime"></div>
-        <div class="durationTime"></div>
-    </div>
-    </section> 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-     <!-- <section class="tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-overflow-hidden max-lg:tw-p-4 max-md:tw-mt-[50px]">
-        <div class="tw-flex tw-h-full tw-w-full tw-place-content-center tw-gap-8 tw-p-[5%] max-lg:tw-flex-col">
-           
-            <div class="tw-flex tw-w-full tw-max-w-[50%] tw-place-content-center tw-place-items-center max-lg:tw-max-w-[unset]">
-                <div class="tw-relative tw-flex tw-max-h-[580px] tw-overflow-hidden max-lg:tw-h-fit">
-                    <img src="../assets/images/home/entretien eco.jpg" alt="Publicité ÉcoPro" class="text tw-h-full tw-w-full tw-object-cover shadow-lg" />
+    <section class="music-section">
+        <div class="music-list">
+            <div class="music-item" onclick="downloadMusic('song1.mp3')" onmouseover="hoverMusic(event)" onmouseout="removeHover(event)">
+                <div class="music-thumbnail">
+                    <img src="../assets/images/music/music1.png" alt="Song 1">
+                    <p class="music-title">Song 1</p>
                 </div>
             </div>
     
-     
-            <div class="tw-flex tw-flex-col tw-place-content-center tw-max-w-[50%] max-lg:tw-max-w-full">
-                <h1 id="story-title" class="tw-text-5xl tw-font-semibold tw-uppercase tw-leading-[75px] max-lg:tw-text-4xl">Publicité pour Entretien ÉcoPro</h1>
-                <p id="story-text" class="tw-mt-6 tw-max-w-[450px] tw-p-2 tw-text-justify max-lg:tw-max-w-full max-lg:tw-mt-4">
-                    J'ai dirigé, filmé et monté une vidéo de publicité pour la compagnie D'ÉcoPro, spécialisée dans le lavage de vitre.
-                </p>
-                <a href="https://www.youtube.com/watch?v=H7puyP61t-k" target="_blank" class="tw-mt-4 tw-inline-block tw-bg-blue-500 tw-text-blue tw-p-2 tw-rounded hover:tw-bg-blue-700">
-                    Voir la vidéo sur YouTube
-                </a>
+            <div class="music-item" onclick="downloadMusic('song2.mp3')" onmouseover="hoverMusic(event)" onmouseout="removeHover(event)">
+                <div class="music-thumbnail">
+                    <img src="../assets/images/music/music2.png" alt="Song 2">
+                    <p class="music-title">Song 2</p>
+                </div>
             </div>
-        </div>
-    </section> -->
-
     
+            <div class="music-item" onclick="downloadMusic('song3.mp3')" onmouseover="hoverMusic(event)" onmouseout="removeHover(event)">
+                <div class="music-thumbnail">
+                    <img src="../assets/images/music/music3.png" alt="Song 3">
+                    <p class="music-title">Song 3</p>
+                </div>
+            </div>
+    
+            <!-- Add more songs as needed -->
+        </div>
+    </section>
     
 
 
-         <!-- <section class="video">
-        <div class="video-container">
-            <div class="video-item">
-                <a href="https://www.youtube.com/watch?v=qRqz1CxbHfQ" class="video-link" target="_blank">
-                    <img src="../assets/images/home/Layer3.png" class="cassette" alt="Vidéo 1">
-                </a>
-            </div>
-            <div class="video-item">
-                <a href="https://www.youtube.com/watch?v=tOcFtTCyJOY" class="video-link" target="_blank">
-                    <img src="../assets/images/home/Layer2.png" class="cassette" alt="Vidéo 2">
-                </a>
-            </div>
-            <div class="video-item">
-                <a href="https://www.youtube.com/watch?v=wBZa_8Q9vxc" class="video-link" target="_blank">
-                    <img src="../assets/images/home/Layer1.png" class="cassette" alt="Vidéo 3">
-                </a>
-            </div>
-        </div>
-        <audio id="transition-audio" src="../assets/audio/yes.mp3"></audio> 
-    </section> -->
+
+
+
+
+
     
     
     

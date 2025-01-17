@@ -276,6 +276,25 @@ function changeProgressBar() {
     song.currentTime = progressBar.value;
 };
 
+// Function to handle hover effect (enlarging the item)
+function hoverMusic(event) {
+    event.target.closest('.music-item').style.transform = "scale(1.1)";
+    event.target.closest('.music-item').style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.3)";
+}
+
+// Function to remove hover effect (resetting the item size)
+function removeHover(event) {
+    event.target.closest('.music-item').style.transform = "scale(1)";
+    event.target.closest('.music-item').style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
+}
+
+// Function to handle downloading the music
+function downloadMusic(fileName) {
+    const a = document.createElement('a');
+    a.href = `../assets/music/${fileName}`;
+    a.download = fileName;
+    a.click();
+}
 
     
     

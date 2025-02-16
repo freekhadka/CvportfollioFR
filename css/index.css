@@ -735,36 +735,25 @@ header {
 }
 
 .music-section {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    background-color: #f0f0f0; /* Adjust the background color */
+    background-color: #ffffff; /* Adjust the background color */
+    flex-direction: column; /* Stack items vertically */
 }
 
 .music-list {
     display: flex;
-    gap: 40px; /* Increased gap between items */
-    flex-wrap: wrap;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between items */
     justify-content: center;
+    align-items: center;
 }
 
-.music-item {
-    position: relative;
-    width: 250px; /* Larger width for album cover size */
-    height: 250px; /* Square shape with equal height */
-    overflow: hidden;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    border-radius: 10px; /* Slight rounded corners, remove this if you want sharp edges */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
-.music-item:hover {
-    transform: scale(1.1); /* Increase size on hover */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
 
 .music-thumbnail {
     position: relative;
@@ -801,6 +790,15 @@ header {
     transform: scale(1.05); /* Slight zoom effect on hover */
     filter: brightness(1.2); /* Increase brightness on hover */
 }
+
+.d3 {
+ margin-top: 80px;
+}
+
+.d4 {
+    margin-top: 10px;
+}
+
 
 
 

@@ -69,32 +69,42 @@
 
 
 
-    <section class="music-section">
-        <div class="music-list">
-            <div class="music-item" onclick="downloadMusic('song1.mp3')" onmouseover="hoverMusic(event)" onmouseout="removeHover(event)">
-                <div class="music-thumbnail">
-                    <img src="../assets/images/music/music1.png" alt="Song 1">
-                    <p class="music-title">Song 1</p>
-                </div>
+<section class="music-section">
+    <div class="music-list">
+        <div class="music-item">
+            <div class="music-thumbnail">
+                <audio controls>
+                    <source src="../assets/music/PPH_master.wav" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="music-title"></p>
             </div>
-    
-            <div class="music-item" onclick="downloadMusic('song2.mp3')" onmouseover="hoverMusic(event)" onmouseout="removeHover(event)">
-                <div class="music-thumbnail">
-                    <img src="../assets/images/music/music2.png" alt="Song 2">
-                    <p class="music-title">Song 2</p>
-                </div>
-            </div>
-    
-            <div class="music-item" onclick="downloadMusic('song3.mp3')" onmouseover="hoverMusic(event)" onmouseout="removeHover(event)">
-                <div class="music-thumbnail">
-                    <img src="../assets/images/music/music3.png" alt="Song 3">
-                    <p class="music-title">Song 3</p>
-                </div>
-            </div>
-    
-            <!-- Add more songs as needed -->
         </div>
-    </section>
+
+        <div class="music-item">
+            <div class="music-thumbnail">
+                <audio controls>
+                    <source src="../assets/music/Anthropomorphism_master.wav" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="music-title"></p>
+            </div>
+        </div>
+
+        <div class="music-item">
+            <div class="music-thumbnail">
+                <audio controls>
+                    <source src="../assets/music/you-myself-I.wav" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="music-title"></p>
+            </div>
+        </div>
+
+        <!-- Add more songs as needed -->
+    </div>
+</section>
+
     
 
 

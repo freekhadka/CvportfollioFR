@@ -799,6 +799,26 @@ header {
     margin-top: 10px;
 }
 
+.music-logos {
+    position: absolute;
+    top: calc(100vh / 2 + 60px); /* slightly below the stacked names */
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+
+.music-logo {
+    height: 40px;
+    width: auto;
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.3));
+    transition: transform 0.3s ease;
+}
+
+.music-logo:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 

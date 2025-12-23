@@ -1,8 +1,7 @@
-@import url(../assets/font/coolvetica_rg.otf);
 
-@font-face {
-  font-family: "coolvetica";
-  src: url(../assets/font/coolvetica_rg.otf);
+
+html, body {
+    font-family: "Courier New", Courier, monospace !important;
 }
 
 :root {

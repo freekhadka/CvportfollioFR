@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: 'Satoshi';
-    src: url('../assets/font/Satoshi-Variable.ttf') ;
 
-}
 
 
 :root{
@@ -545,7 +541,7 @@ header {
     color: rgb(255, 255, 255);
    
     transform: translateY(-80%);
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--accent-color);
   }
   
